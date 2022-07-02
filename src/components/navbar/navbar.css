@@ -1,0 +1,65 @@
+img {
+    max-height: 150px;
+    max-width: 300px;
+    /* background-color: blue; */
+}
+
+.navbar--text {
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.navbar--column--left {
+    font-family: 'Roboto' sans-serif;
+    flex: 1 1 200px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.navbar--column--right {
+    flex: 1 1 200px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.navbar--row {
+    background-color: khaki;
+    padding: 15px;
+    flex: 1 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.navbar--user {
+    font-family: 'Niramit' serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.navbar--menubar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navbar--logo {
+    font-family: 'Roboto' sans-serif;
+}
+
+.navbar--nome {
+    font-family: 'Niramit' sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+}
