@@ -1,0 +1,12 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.app--header{
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+}

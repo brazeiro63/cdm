@@ -8,30 +8,33 @@ div {
 
 a {
     text-decoration: none;
+    text-align: center;
     cursor: pointer;
     animation: normal;
-    font-family: 'Verdana';
+    font-family: 'Epilogue', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .nemuoption--text {
-    font-family: "Tahoma";
+    font-family: 'Epilogue', sans-serif;
     font-weight: 600;
-    padding-left: 10px;
     text-decoration: none;
 }
 
 .menuOption-button {
-    width: 110px;
-    height: 50px;
-    border-radius: 10% 15%;
-    font-size: 14px;
-    margin: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     background-color: deepskyblue;
+    color: white;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px ;
+    border-style: hidden;
+    margin: 5px;
 }
 
 .menuOption-button:hover {
-    background-color: greenyellow;
+    background-color: darkorange;
+    transform: scale(1.1);
 }

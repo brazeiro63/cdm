@@ -12,7 +12,7 @@ img {
 
 .navbar--column--left {
     font-family: 'Roboto' sans-serif;
-    flex: 1 1 200px;
+    flex: 0.4 1 ;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -34,7 +34,8 @@ img {
 }
 
 .navbar--row {
-    background-color: khaki;
+    /* background-image: url(../../images/bg2.png); */
+    background-repeat: no-repeat;
     padding: 15px;
     flex: 1 100px;
     display: flex;
