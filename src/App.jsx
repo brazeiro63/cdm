@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar';
 import Main from './components/main/Main';
+import Carousel from './components/main/Carousel';
 import './app.css';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
                     <Navbar />
                 </div>
                 <div className='app--body'>
+                    <Carousel />
                     <Main ident='quemsomos' />
                     <Main ident='imoveis' />
                     <Main ident='comodidades' />

@@ -4,7 +4,6 @@ import './menuOption.css'
 class MenuOption extends React.Component {
   constructor(props) {
     super(props)
-    console.log(this.props);
 
     this.state = {
     }
@@ -13,9 +12,10 @@ class MenuOption extends React.Component {
   render() {
     return (
       <div className='menuOption'>
-        <button className='menuOption-button'>{this.props.text}
-          {/* <a href={this.props.dest}>{this.props.text} </a> */}
-        </button>
+        <a href={this.props.dest}>
+          <button className='menuOption-button'>{this.props.text}
+          </button>
+        </a>
       </div >
     )
   }

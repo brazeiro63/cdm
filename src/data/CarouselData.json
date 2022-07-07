@@ -1,0 +1,58 @@
+[
+    {
+        "cidade": "Morro de São Paulo",
+        "imovel": "Casas de Margarida - 4ª Praia",
+        "image_name": "Image1.jpeg",
+        "resolution": 1080,
+        "description": "descrição da imagem 1"
+    },
+    {
+        "cidade": "Morro de São Paulo",
+        "imovel": "Casas de Margarida - 4ª Praia",
+        "image_name": "Image2.jpeg",
+        "resolution": 1080,
+        "description": "descrição da imagem 2"
+    },
+    {
+        "cidade": "Morro de São Paulo",
+        "imovel": "Casas de Margarida - 4ª Praia",
+        "image_name": "Image3.jpeg",
+        "resolution": 1080,
+        "description": "descrição da imagem 3"
+    },
+    {
+        "cidade": "Morro de São Paulo",
+        "imovel": "Casas de Margarida - 4ª Praia",
+        "image_name": "Image4.jpeg",
+        "resolution": 1080,
+        "description": "descrição da imagem 4"
+    },
+    {
+        "cidade": "Muro Alto",
+        "imovel": "Casas de Margarida - Muro Alto",
+        "image_name": "Image1.jpeg",
+        "resolution": 1080,
+        "description": "descrição da imagem 1"
+    },
+    {
+        "cidade": "Muro Alto",
+        "imovel": "Casas de Margarida - Muro Alto",
+        "image_name": "Image2.jpeg",
+        "resolution": 1080,
+        "description": "descrição da imagem 2"
+    },
+    {
+        "cidade": "Muro Alto",
+        "imovel": "Casas de Margarida - Muro Alto",
+        "image_name": "Image3.jpeg",
+        "resolution": 1080,
+        "description": "descrição da imagem 3"
+    },
+    {
+        "cidade": "Muro Alto",
+        "imovel": "Casas de Margarida - Muro Alto",
+        "image_name": "Image4.jpeg",
+        "resolution": 1080,
+        "description": "descrição da imagem 4"
+    }
+]

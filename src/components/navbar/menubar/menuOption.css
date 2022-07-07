@@ -23,14 +23,17 @@ a {
 }
 
 .menuOption-button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    background-color: deepskyblue;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: lightskyblue;
     color: white;
-    width: 125px;
+    width: 150px;
     height: 50px;
-    border-radius: 5px ;
-    border-style: hidden;
+    align-items: center;
+    border-radius: 7px;
+    border-color: cornflowerblue;
+    border-width: 5px;
     margin: 5px;
 }
 
