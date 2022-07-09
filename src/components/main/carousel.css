@@ -1,0 +1,13 @@
+.img--carousel {
+    image-rendering: auto;
+    min-width: auto;
+
+}
+
+.item {
+    height: auto;
+}
+
+.slide {
+    width: 55%;
+}
