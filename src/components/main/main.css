@@ -12,8 +12,6 @@
 }
 
 .main--corpo {
-    background-image: url(../../images/bg2.png);
-    /* background-image: url("/w3images/photographer.jpg"); */
     background-color: #cccccc;
     height: 500px;
     width: 100%;

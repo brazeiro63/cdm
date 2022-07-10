@@ -8,6 +8,59 @@
     height: auto;
 }
 
-.slide {
+.slide--show {
     width: 55%;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    box-shadow: 2px;
+}
+
+.presentation--text {
+    width: 45%;
+    padding: 20px;
+}
+
+.presentation--text--title {
+    font-family: 'Bellota text', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.presentation--text--body {
+    font-family: 'Bellota text', cursive;
+    font-size: 30px;
+    text-align: justify;
+    padding: 8%;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+    .presentation--text--title {
+        font-size: 30px;
+    }
+
+    .presentation--text--body {
+        font-size: 24px;
+    }
+
+    .presentation {
+        flex-direction: column;
+        flex-flow: column;
+    }
+
+    .slide--show {
+        width: 100%;
+    }
+
+    .presentation--text {
+        width: 100%;
+    }
+
 }
