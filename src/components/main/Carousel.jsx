@@ -1,8 +1,15 @@
 import React from 'react'
-import image1 from '../../images/Image1.jpeg'
-import image2 from '../../images/Image2.jpeg'
-import image3 from '../../images/Image3.jpeg'
-import image4 from '../../images/Image4.jpeg'
+import image1 from '../../images/morrosaopaulo-1.jpeg'
+import image2 from '../../images/morrosaopaulo-2.jpeg'
+import image3 from '../../images/morrosaopaulo-3.jpeg'
+import image4 from '../../images/morrosaopaulo-4.jpeg'
+import image5 from '../../images/morrosaopaulo-5.jpeg'
+import image6 from '../../images/morrosaopaulo-6.jpeg'
+import image7 from '../../images/morrosaopaulo-7.jpeg'
+import image8 from '../../images/morrosaopaulo-8.jpeg'
+import image9 from '../../images/morrosaopaulo-9.jpeg'
+import image10 from '../../images/morrosaopaulo-10.jpeg'
+import image11 from '../../images/morrosaopaulo-11.jpeg'
 import './carousel.css'
 
 
@@ -17,6 +24,13 @@ export default function Carousel() {
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                    <li data-target="#myCarousel" data-slide-to="9"></li>
+                    <li data-target="#myCarousel" data-slide-to="10"></li>
                 </ol>
 
                 <div className="carousel-inner">
@@ -51,6 +65,55 @@ export default function Carousel() {
                             <p>We love the Big Apple!</p>
                         </div>
                     </div>
+                    <div className="item">
+                        <img className='img--carousel' src={image5} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Morro de São Paulo</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--carousel' src={image6} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Morro de São Paulo</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--carousel' src={image7} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Morro de São Paulo</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--carousel' src={image8} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Morro de São Paulo</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--carousel' src={image9} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Morro de São Paulo</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--carousel' src={image10} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Morro de São Paulo</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--carousel' src={image11} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Morro de São Paulo</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
                 </div>
 
                 <a className="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -77,78 +140,3 @@ export default function Carousel() {
 
     )
 }
-
-
-
-
-
-
-
-        // {/* <div className='carousel--main'>
-        //     <div className="container">
-        //         <h2>Carousel Example</h2>
-        //         <div id="myCarousel" className="carousel slide" data-ride="carousel">
-        //             <ol className="carousel-indicators">
-        //                 {acomodacoes.map(() => {
-        //                     return (
-        //                         <li data-target="#myCarousel" data-slide-to={contador += 1} ></li>
-        //                     )
-        //                 })}
-        //             </ol>
-
-        //             {/* Wrapper for slides  */}
-        //             <div className="carousel-inner">
-        //                 {acomodacoes.map((acomodacao) => {
-        //                     let urlImage = "http://localhost:3000/src/components/main/" + acomodacao.image_name
-        //                     console.log(urlImage)
-        //                     return (
-        //                         <div className={"item" + (acomodacao.image_name === acomodacoes[0].image_name ? " active" : "")}>
-        //                             <img src={urlImage} alt={acomodacao.cidade} width="500" height="600" />
-        //                             <div className="carousel-caption">
-        //                                 <h3>{acomodacao.cidade} </h3>
-        //                                 <p>{acomodacao.description} </p>
-        //                             </div>
-        //                         </div>
-        //                     )
-        //                 })}
-
-
-
-        //                 {/* <div className="item active">
-        //                     <img src="la.jpg" alt="Los Angeles" />
-        //                     <div className="carousel-caption">
-        //                         <h3>Los Angeles</h3>
-        //                         <p>LA is always so much fun!</p>
-        //                     </div>
-        //                 </div>
-
-        //                 <div className="item">
-        //                     <img src="chicago.jpg" alt="Chicago" />
-        //                     <div className="carousel-caption">
-        //                         <h3>Chicago</h3>
-        //                         <p>Thank you, Chicago!</p>
-        //                     </div>
-        //                 </div>
-
-        //                 <div className="item">
-        //                     <img src="ny.jpg" alt="New York" />
-        //                     <div className="carousel-caption">
-        //                         <h3>New York</h3>
-        //                         <p>We love the Big Apple!</p>
-        //                     </div>
-        //                 </div> */}
-
-        //             </div>
-
-        //             {/* <-- Left and right controls --> */}
-        //             <a className="left carousel-control" href="#myCarousel" data-slide="prev">
-        //                 <span className="glyphicon glyphicon-chevron-left"></span>
-        //                 <span className="sr-only">Previous</span>
-        //             </a>
-        //             <a className="right carousel-control" href="#myCarousel" data-slide="next">
-        //                 <span className="glyphicon glyphicon-chevron-right"></span>
-        //                 <span className="sr-only">Next</span>
-        //             </a>
-        //         </div>
-        //     </div>
-        // </div > */}

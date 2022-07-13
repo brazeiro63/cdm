@@ -2,6 +2,10 @@ import React from 'react'
 import Navbar from './components/navbar/Navbar';
 import Main from './components/main/Main';
 import Carousel from './components/main/Carousel';
+import Imoveis from './components/main/Imoveis';
+import Comodidades from './components/main/Comodidades';
+import Passeios from './components/main/Passeios';
+import Anfitrioes from './components/main/Anfitrioes';
 import './app.css';
 
 const App = () => {
@@ -13,15 +17,13 @@ const App = () => {
                 </div>
                 <div className='app--body'>
                     <Carousel />
-                    <Main ident='quemsomos' />
-                    <Main ident='imoveis' />
-                    <Main ident='comodidades' />
-                    <Main ident='passeios' />
-                    <Main ident='contato' />
-                    <Main ident='blog' />
+                    <Imoveis />
+                    <Comodidades />
+                    <Passeios />
+                    <Anfitrioes />
                 </div>
                 <div className='app--footer'>
-
+                    <Main ident='contato' />
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-.img--carousel {
+.img--passeios {
     image-rendering: auto;
     min-width: auto;
 
@@ -8,11 +8,11 @@
     height: auto;
 }
 
-.slide--show {
+.passeios--slide--show {
     width: 50%;
 }
 
-.presentation {
+.passeios--presentation {
     display: flex;
     flex-direction: row;
     flex-flow: row;
@@ -21,45 +21,45 @@
     box-shadow: 2px;
 }
 
-.presentation--text {
+.passeios--presentation--text {
     width: 50%;
-    padding: 20px;
+    padding: 5px;
 }
 
-.presentation--text--title {
+.passeios--presentation--text--title {
     font-family: 'Bellota text', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 400;
     text-align: center;
 }
 
-.presentation--text--body {
+.passeios--presentation--text--body {
     font-family: 'Bellota text', sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     text-align: justify;
-    padding: 8%;
+    padding: 4%;
     font-weight: 400;
 }
 
 @media screen and (max-width: 900px) {
-    .presentation--text--title {
+    .passeios--presentation--text--title {
         font-size: 30px;
     }
 
-    .presentation--text--body {
+    .passeios--presentation--text--body {
         font-size: 24px;
     }
 
-    .presentation {
+    .passeios--presentation {
         flex-direction: column;
-        flex-flow: column;
+        flex-flow: column-reverse;
     }
 
-    .slide--show {
+    .passeios--slide--show {
         width: 100%;
     }
 
-    .presentation--text {
+    .passeios--presentation--text {
         width: 100%;
     }
 

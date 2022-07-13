@@ -1,4 +1,4 @@
-.img--carousel {
+.img--comodidades {
     image-rendering: auto;
     min-width: auto;
 
@@ -8,11 +8,11 @@
     height: auto;
 }
 
-.slide--show {
+.comodidades--slide--show {
     width: 50%;
 }
 
-.presentation {
+.comodidades--presentation {
     display: flex;
     flex-direction: row;
     flex-flow: row;
@@ -21,19 +21,19 @@
     box-shadow: 2px;
 }
 
-.presentation--text {
+.comodidades--presentation--text {
     width: 50%;
     padding: 20px;
 }
 
-.presentation--text--title {
+.comodidades--presentation--text--title {
     font-family: 'Bellota text', sans-serif;
     font-size: 40px;
     font-weight: 400;
     text-align: center;
 }
 
-.presentation--text--body {
+.comodidades--presentation--text--body {
     font-family: 'Bellota text', sans-serif;
     font-size: 30px;
     text-align: justify;
@@ -42,24 +42,24 @@
 }
 
 @media screen and (max-width: 900px) {
-    .presentation--text--title {
+    .comodidades--presentation--text--title {
         font-size: 30px;
     }
 
-    .presentation--text--body {
+    .comodidades--presentation--text--body {
         font-size: 24px;
     }
 
-    .presentation {
+    .comodidades--presentation {
         flex-direction: column;
         flex-flow: column;
     }
 
-    .slide--show {
+    .comodidades--slide--show {
         width: 100%;
     }
 
-    .presentation--text {
+    .comodidades--presentation--text {
         width: 100%;
     }
 
