@@ -5,8 +5,9 @@
     justify-content: space-around;
     align-items: stretch;
 }
-.app--header{
+
+/* .app--header {
     display: flex;
     flex-direction: column;
     height: 15%;
-}
+} */
