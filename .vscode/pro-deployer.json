@@ -1,0 +1,25 @@
+{
+	"uploadOnSave": true,
+	"autoDelete": true,
+	"checkGitignore": false,
+	"activeTargets": [
+		"CasasDeMargarida"
+	],
+	"concurrency": 5,
+	"ignore": [
+		".git/**/*",
+		".vscode/**/*"
+	],
+	"targets": [
+		{
+			"name": "CasasDeMargarida",
+			"type": "ftp",
+			"host": "186.202.153.13",
+			"port": 21,
+			"user": "casasdemargarida1",
+			"password": "LocawebMargo6463$",
+			"dir": "/home/storage/9/cb/d2/casasdemargarida1/public_html",
+			"transferDataType": "binary"
+		},
+	]
+}
