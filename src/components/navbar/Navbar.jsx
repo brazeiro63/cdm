@@ -14,7 +14,7 @@ const Navbar = () => {
           {/* <div className='navbar--nome'>Casas de Margarida</div> */}
         </nav>
         <nav className='navbar--column--right'>
-          <div className='navbar--user'>usuário</div>
+          <div className='navbar--user'></div>
           <div className='navbar--menubar'>
             {/* <Menubar /> */}
           </div>
@@ -23,19 +23,11 @@ const Navbar = () => {
 
 
       <div className="navbar">
+        <a href="#imoveis">Imóveis</a>
         <a href="#comodidades">Comodidades</a>
         <a href="#passeios">Passeios</a>
         <a href="#anfitrioes">Anfitriões</a>
-        <div className="dropdown">
-          <button className="dropbtn">Imóveis
-            <i className="fa fa-caret-down"></i>
-          </button>
-          <div className="dropdown-content">
-            <a href="#morro">Morro de São Paulo</a>
-            <a href="#muro">Muro Alto</a>
-            <a href="#porto">Porto de Galinhas</a>
-          </div>
-        </div>
+        <a href="#contato">Contato</a>
       </div>
 
 

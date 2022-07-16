@@ -1,8 +1,5 @@
 import React from 'react'
-import image1 from '../../images/morrosaopaulo-1.jpeg'
-import image2 from '../../images/morrosaopaulo-2.jpeg'
-import image3 from '../../images/morrosaopaulo-3.jpeg'
-import image4 from '../../images/morrosaopaulo-4.jpeg'
+import image1 from '../../images/Comodidades/comodidades.jpeg'
 import './comodidades.css'
 
 
@@ -14,41 +11,14 @@ export default function Comodidades() {
             <div id="myComodidades" className="carousel slide comodidades--slide--show" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#myComodidades" data-slide-to="0" className="active"></li>
-                    <li data-target="#myComodidades" data-slide-to="1"></li>
-                    <li data-target="#myComodidades" data-slide-to="2"></li>
-                    <li data-target="#myComodidades" data-slide-to="3"></li>
                 </ol>
 
                 <div className="carousel-inner">
                     <div className="item active">
                         <img className='img--comodidades' src={image1} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>LA is always so much fun!</p>
-                        </div>
-                    </div>
-
-                    <div className="item">
-                        <img className='img--comodidades' src={image2} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>Thank you, Chicago!</p>
-                        </div>
-                    </div>
-
-                    <div className="item">
-                        <img className='img--comodidades' src={image3} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-
-                    <div className="item">
-                        <img className='img--comodidades' src={image4} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
+                            <h3>Todos os imóveis</h3>
+                            <p>Equipados com todos os eletrodomésticos para facilitar o preparo de alimentos</p>
                         </div>
                     </div>
                 </div>

@@ -12,6 +12,10 @@
     width: 50%;
 }
 
+.imoveis--slide--show img {
+    width: 100%;
+}
+
 .imoveis--presentation {
     display: flex;
     flex-direction: row;

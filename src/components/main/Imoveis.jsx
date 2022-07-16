@@ -1,12 +1,15 @@
 import React from 'react'
-import image1 from '../../images/morrosaopaulo-1.jpeg'
-import image2 from '../../images/morrosaopaulo-2.jpeg'
-import image3 from '../../images/morrosaopaulo-3.jpeg'
-import image4 from '../../images/morrosaopaulo-4.jpeg'
-import image5 from '../../images/portodegalinhas-1.jpeg'
-import image6 from '../../images/portodegalinhas-2.jpeg'
-import image7 from '../../images/portodegalinhas-3.jpeg'
-import image8 from '../../images/portodegalinhas-4.jpeg'
+import image1 from '../../images/Imoveis/ImovelMorro/ImovelMorro04.jpeg'
+import image2 from '../../images/Imoveis/ImovelMorro/ImovelMorro13.jpeg'
+import image3 from '../../images/Imoveis/ImovelMorro/ImovelMorro19.jpeg'
+import image4 from '../../images/Imoveis/ImovelMorro/ImovelMorro22.jpeg'
+import image5 from '../../images/Imoveis/ImovelMuro/ImovelMuro01.jpeg'
+import image6 from '../../images/Imoveis/ImovelMuro/ImovelMuro04.jpeg'
+import image7 from '../../images/Imoveis/ImovelMuro/ImovelMuro07.jpeg'
+import image8 from '../../images/Imoveis/ImovelMuro/ImovelMuro10.jpeg'
+import image9 from '../../images/Imoveis/ImovelPortoBelga/ImovelPortoBelga05.jpeg'
+import image10 from '../../images/Imoveis/ImovelPortoAtlantis/ImovelPortoAtlantis01.jpeg'
+import image11 from '../../images/Imoveis/ImovelPortoAtlantis/ImovelPortoAtlantis02.jpeg'
 import './imoveis.css'
 
 
@@ -45,6 +48,9 @@ export default function Imoveis() {
                     <li data-target="#myImoveis" data-slide-to="5"></li>
                     <li data-target="#myImoveis" data-slide-to="6"></li>
                     <li data-target="#myImoveis" data-slide-to="7"></li>
+                    <li data-target="#myImoveis" data-slide-to="8"></li>
+                    <li data-target="#myImoveis" data-slide-to="9"></li>
+                    <li data-target="#myImoveis" data-slide-to="10"></li>
                 </ol>
 
                 <div className="carousel-inner">
@@ -52,7 +58,7 @@ export default function Imoveis() {
                         <img className='img--imoveis' src={image1} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Morro de São Paulo</h3>
-                            <p>LA is always so much fun!</p>
+                            <p>Casa confortável!</p>
                         </div>
                     </div>
 
@@ -60,7 +66,7 @@ export default function Imoveis() {
                         <img className='img--imoveis' src={image2} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Morro de São Paulo</h3>
-                            <p>Thank you, Chicago!</p>
+                            <p>Quartos climatizados!</p>
                         </div>
                     </div>
 
@@ -68,7 +74,7 @@ export default function Imoveis() {
                         <img className='img--imoveis' src={image3} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
+                            <p>Cozinha com conceito aberto!</p>
                         </div>
                     </div>
 
@@ -76,7 +82,7 @@ export default function Imoveis() {
                         <img className='img--imoveis' src={image4} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
+                            <p>Cozinha equipada!</p>
                         </div>
                     </div>
 
@@ -84,7 +90,7 @@ export default function Imoveis() {
                         <img className='img--imoveis' src={image5} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Porto de Galinhas</h3>
-                            <p>We love the Big Apple!</p>
+                            <p>Ambiente agradável e com muito conforto!</p>
                         </div>
                     </div>
 
@@ -92,7 +98,7 @@ export default function Imoveis() {
                         <img className='img--imoveis' src={image6} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Porto de Galinhas</h3>
-                            <p>We love the Big Apple!</p>
+                            <p>Cozinha super equipada!</p>
                         </div>
                     </div>
 
@@ -100,7 +106,7 @@ export default function Imoveis() {
                         <img className='img--imoveis' src={image7} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Porto de Galinhas</h3>
-                            <p>We love the Big Apple!</p>
+                            <p>Dormitório amplo com armários e ar condicionado!</p>
                         </div>
                     </div>
 
@@ -108,7 +114,28 @@ export default function Imoveis() {
                         <img className='img--imoveis' src={image8} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Porto de Galinhas</h3>
-                            <p>We love the Big Apple!</p>
+                            <p>Condomínio com lazer completo!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--imoveis' src={image9} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Porto de Galinhas</h3>
+                            <p>Beira mar com piscina e muito luxo!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--imoveis' src={image10} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Porto de Galinhas</h3>
+                            <p>Em breve, kit studio a 100 m da praia!</p>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className='img--imoveis' src={image11} alt="Morro de São Paulo" />
+                        <div className="carousel-caption">
+                            <h3>Porto de Galinhas</h3>
+                            <p>Em breve, kit studio super confortável!</p>
                         </div>
                     </div>
                 </div>

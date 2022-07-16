@@ -12,6 +12,11 @@
     width: 50%;
 }
 
+.passeios--slide--show img {
+    width: 100%;
+}
+
+
 .passeios--presentation {
     display: flex;
     flex-direction: row;

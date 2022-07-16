@@ -10,6 +10,11 @@
 
 .slide--show {
     width: 50%;
+    min-width: 50%;
+}
+
+.slide--show img{
+    width: 100%;
 }
 
 .presentation {
@@ -39,6 +44,17 @@
     text-align: justify;
     padding: 8%;
     font-weight: 400;
+}
+
+.carousel-caption h3{
+    font-family: "Bellota Text", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.carousel-caption p{
+    font-family: 'Bellota Text', sans-serif;
+    font-size: 28px;
 }
 
 @media screen and (max-width: 900px) {

@@ -1,15 +1,9 @@
 import React from 'react'
-import image1 from '../../images/morrosaopaulo-1.jpeg'
-import image2 from '../../images/morrosaopaulo-2.jpeg'
-import image3 from '../../images/morrosaopaulo-3.jpeg'
-import image4 from '../../images/morrosaopaulo-4.jpeg'
-import image5 from '../../images/morrosaopaulo-5.jpeg'
-import image6 from '../../images/morrosaopaulo-6.jpeg'
-import image7 from '../../images/morrosaopaulo-7.jpeg'
-import image8 from '../../images/morrosaopaulo-8.jpeg'
-import image9 from '../../images/morrosaopaulo-9.jpeg'
-import image10 from '../../images/morrosaopaulo-10.jpeg'
-import image11 from '../../images/morrosaopaulo-11.jpeg'
+import image1 from '../../images/Carousel/CarouselMorro02.jpeg';
+import image2 from '../../images/Carousel/CarouselMuro01.jpeg';
+import image3 from '../../images/Carousel/CarouselPortoBelga02.jpeg';
+import image4 from '../../images/Carousel/CarouselPortoAtlantis04.jpeg';
+
 import './carousel.css'
 
 
@@ -24,13 +18,6 @@ export default function Carousel() {
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
-                    <li data-target="#myCarousel" data-slide-to="6"></li>
-                    <li data-target="#myCarousel" data-slide-to="7"></li>
-                    <li data-target="#myCarousel" data-slide-to="8"></li>
-                    <li data-target="#myCarousel" data-slide-to="9"></li>
-                    <li data-target="#myCarousel" data-slide-to="10"></li>
                 </ol>
 
                 <div className="carousel-inner">
@@ -38,80 +25,31 @@ export default function Carousel() {
                         <img className='img--carousel' src={image1} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Morro de São Paulo</h3>
-                            <p>LA is always so much fun!</p>
+                            <p>Casa aconchegante na 4ª Praia</p>
                         </div>
                     </div>
 
                     <div className="item">
-                        <img className='img--carousel' src={image2} alt="Morro de São Paulo" />
+                        <img className='img--carousel' src={image2} alt="Muro Alto" />
                         <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>Thank you, Chicago!</p>
+                            <h3>Muro Alto - Ipojuca - PE</h3>
+                            <p>Apartamento super equipado no Muro Alto Condomínio Club!</p>
                         </div>
                     </div>
 
                     <div className="item">
-                        <img className='img--carousel' src={image3} alt="Morro de São Paulo" />
+                        <img className='img--carousel' src={image3} alt="Porto de Galinhas" />
                         <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
+                            <h3>Porto de Galinhas - Ipojuca - PE</h3>
+                            <p>Luxo com pé na areia em Porto de Galinhas!</p>
                         </div>
                     </div>
 
                     <div className="item">
-                        <img className='img--carousel' src={image4} alt="Morro de São Paulo" />
+                        <img className='img--carousel' src={image4} alt="Porto de Galinhas" />
                         <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <img className='img--carousel' src={image5} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <img className='img--carousel' src={image6} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <img className='img--carousel' src={image7} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <img className='img--carousel' src={image8} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <img className='img--carousel' src={image9} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <img className='img--carousel' src={image10} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <img className='img--carousel' src={image11} alt="Morro de São Paulo" />
-                        <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
-                            <p>We love the Big Apple!</p>
+                            <h3>Porto de Galinhas - Ipojuca - PE</h3>
+                            <p>Em breve, Kit Studio super fofa a 100m da praia!</p>
                         </div>
                     </div>
                 </div>
