@@ -32,14 +32,14 @@
 }
 
 .passeios--presentation--text--title {
-    font-family: 'Bellota text', sans-serif;
+    font-family: 'BAHNSCHRIFT text', sans-serif;
     font-size: 36px;
     font-weight: 400;
     text-align: center;
 }
 
 .passeios--presentation--text--body {
-    font-family: 'Bellota text', sans-serif;
+    font-family: 'BAHNSCHRIFT text', sans-serif;
     font-size: 22px;
     text-align: justify;
     padding: 4%;
@@ -52,7 +52,7 @@
     }
 
     .passeios--presentation--text--body {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .passeios--presentation {

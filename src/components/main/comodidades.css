@@ -27,15 +27,15 @@
 }
 
 .comodidades--presentation--text--title {
-    font-family: 'Bellota text', sans-serif;
-    font-size: 40px;
+    font-family: 'BAHNSCHRIFT text', sans-serif;
+    font-size: 36px;
     font-weight: 400;
     text-align: center;
 }
 
 .comodidades--presentation--text--body {
-    font-family: 'Bellota text', sans-serif;
-    font-size: 30px;
+    font-family: 'BAHNSCHRIFT text', sans-serif;
+    font-size: 22px;
     text-align: justify;
     padding: 8%;
     font-weight: 400;
@@ -47,7 +47,7 @@
     }
 
     .comodidades--presentation--text--body {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .comodidades--presentation {

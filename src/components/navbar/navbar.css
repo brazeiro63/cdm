@@ -1,6 +1,6 @@
 img {
 
-    max-width: 300px;
+    max-width: 100%;
     /* background-color: blue; */
 }
 
@@ -71,13 +71,13 @@ img {
 
 
 .navbar--text {
-    font-family: 'Bellota text', sans-serif;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
 
 .navbar--column--left {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'BAHNSCHRIFT' sans-serif;
     flex: 0.4 1;
     display: flex;
     flex-flow: column wrap;
@@ -110,7 +110,7 @@ img {
 }
 
 .navbar--user {
-    font-family: 'Niramit' serif;
+    font-family: 'BAHNSCHRIFT' serif;
     font-size: 30px;
     font-weight: 300;
 }
@@ -122,11 +122,11 @@ img {
 }
 
 .navbar--logo {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'BAHNSCHRIFT' sans-serif;
 }
 
 .navbar--nome {
-    font-family: 'Niramit' sans-serif;
+    font-family: 'BAHNSCHRIFT' sans-serif;
     font-size: 52px;
     font-weight: 400;
 }

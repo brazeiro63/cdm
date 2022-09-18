@@ -1,6 +1,6 @@
 div {
     font-size: 20px;
-    font-family: 'Niramit' sans-serif;
+    font-family: 'BAHNSCHRIFT' sans-serif;
     font-weight: 400;
 
 }
@@ -11,19 +11,19 @@ a {
     text-align: center;
     cursor: pointer;
     animation: normal;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'BAHNSCHRIFT', sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
 
 .nemuoption--text {
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'BAHNSCHRIFT', sans-serif;
     font-weight: 600;
     text-decoration: none;
 }
 
 .menuOption-button {
-    font-family: 'Bellota text', sans-serif;
+    font-family: 'BAHNSCHRIFT text', sans-serif;
     font-size: 22px;
     font-weight: 900;
     background-color: lightskyblue;

@@ -32,28 +32,28 @@
 }
 
 .presentation--text--title {
-    font-family: 'Bellota text', sans-serif;
-    font-size: 40px;
+    font-family: 'BAHNSCHRIFT text', sans-serif;
+    font-size: 36px;
     font-weight: 400;
     text-align: center;
 }
 
 .presentation--text--body {
-    font-family: 'Bellota text', sans-serif;
-    font-size: 30px;
+    font-family: 'BAHNSCHRIFT text', sans-serif;
+    font-size: 22px;
     text-align: justify;
     padding: 8%;
     font-weight: 400;
 }
 
 .carousel-caption h3{
-    font-family: "Bellota Text", sans-serif;
+    font-family: "BAHNSCHRIFT Text", sans-serif;
     font-size: 32px;
     font-weight: 800;
 }
 
 .carousel-caption p{
-    font-family: 'Bellota Text', sans-serif;
+    font-family: 'BAHNSCHRIFT Text', sans-serif;
     font-size: 28px;
 }
 
@@ -63,7 +63,7 @@
     }
 
     .presentation--text--body {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .presentation {
