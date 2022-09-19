@@ -1,3 +1,8 @@
+
+body {
+    background-color: #c8d5d0;
+}
+
 .main--text--base {
     font-family: 'BAHNSCHRIFT', sans-serif;
     font-size: 25px;
@@ -12,7 +17,7 @@
 }
 
 .main--corpo {
-    background-color: #cccccc;
+    background-color: #c8d5d0;
     height: 500px;
     width: 100%;
     background-position: center;

@@ -18,7 +18,7 @@ export default function Anfitrioes() {
                         <img className='img--anfitrioes' src={image1} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
                             <h3>Anfitriões</h3>
-                            <p>Paulo e Margarida a seu dispor!</p>
+                            <p>Brazeiro e Margarida a seu dispor!</p>
                         </div>
                     </div>
 
@@ -38,7 +38,7 @@ export default function Anfitrioes() {
                     <p>os Anfitriões</p>
                 </div>
                 <div className='anfitrioes--presentation--text--body'>
-                    <p>Somos Paulo Ricardo e Maria Margarida e temos um prazer que é 
+                    <p>Somos Paulo Brazeiro e Maria Margarida e temos um prazer que é 
                     compartilhar o conforto e aconchego dos imóveis de <strong>Casas de Margarida </strong> 
                     com os nossos hóspedes.</p>
                     <p>Todos os nossos imóveis foram montados pensando no conforto e 

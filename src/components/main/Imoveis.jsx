@@ -35,7 +35,7 @@ export default function Imoveis() {
                         aconchegante apartamento de um dormitório, com sala e cozinha bem equipados.
                     </p><p>Em breve, estará disponivel nossa nova acomodação. Pé na areia de Porto
                         de Galinhas. Um luxuoso apartamento de 105 m<sup>2</sup>, com trẽs dormitórios
-                        onde vamos oferecer experiências inesquecíveis em finais de semana memoráveis.</p>
+                        onde vamos oferecer experiências inesquecíveis.</p>
                 </div>
             </div>
             <div id="myImoveis" className="carousel slide imoveis--slide--show" data-ride="carousel">

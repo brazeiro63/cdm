@@ -16,7 +16,7 @@ export default function Passeios() {
         <div className='passeios--presentation' id='passeios'>
             <div className='passeios--presentation--text'>
                 <div className='passeios--presentation--text--title'>
-                    <p>Passeios</p>
+                    <p>Atrações</p>
                 </div>
                 <div className='passeios--presentation--text--body'>
                     <p>
