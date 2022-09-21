@@ -35,7 +35,7 @@ export default function Anfitrioes() {
             </div>
             <div className='anfitrioes--presentation--text'>
                 <div className='anfitrioes--presentation--text--title'>
-                    <p>os Anfitriões</p>
+                    <p>Os Anfitriões</p>
                 </div>
                 <div className='anfitrioes--presentation--text--body'>
                     <p>Somos Paulo Brazeiro e Maria Margarida e temos um prazer que é 

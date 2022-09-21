@@ -4,7 +4,7 @@ import Main from './components/main/Main';
 import Carousel from './components/main/Carousel';
 import Imoveis from './components/main/Imoveis';
 import Comodidades from './components/main/Comodidades';
-import Passeios from './components/main/Passeios';
+import Atracoes from './components/main/Atracoes';
 import Anfitrioes from './components/main/Anfitrioes';
 import './app.css';
 
@@ -19,7 +19,7 @@ const App = () => {
                     <Carousel />
                     <Imoveis />
                     <Comodidades />
-                    <Passeios />
+                    <Atracoes />
                     <Anfitrioes />
                 </div>
                 <div className='app--footer'>

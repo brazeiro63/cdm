@@ -1,23 +1,22 @@
-.img--passeios {
+.img--atracoes {
     image-rendering: auto;
     min-width: auto;
-
 }
 
 .item {
     height: auto;
 }
 
-.passeios--slide--show {
+.atracoes--slide--show {
     width: 50%;
 }
 
-.passeios--slide--show img {
+.atracoes--slide--show img {
     width: 100%;
 }
 
 
-.passeios--presentation {
+.atracoes--presentation {
     display: flex;
     flex-direction: row;
     flex-flow: row;
@@ -26,19 +25,19 @@
     box-shadow: 2px;
 }
 
-.passeios--presentation--text {
+.atracoes--presentation--text {
     width: 50%;
     padding: 5px;
 }
 
-.passeios--presentation--text--title {
+.atracoes--presentation--text--title {
     font-family: 'BAHNSCHRIFT text', sans-serif;
     font-size: 36px;
     font-weight: 400;
     text-align: center;
 }
 
-.passeios--presentation--text--body {
+.atracoes--presentation--text--body {
     font-family: 'BAHNSCHRIFT text', sans-serif;
     font-size: 22px;
     text-align: justify;
@@ -47,24 +46,24 @@
 }
 
 @media screen and (max-width: 900px) {
-    .passeios--presentation--text--title {
+    .atracoes--presentation--text--title {
         font-size: 30px;
     }
 
-    .passeios--presentation--text--body {
+    .atracoes--presentation--text--body {
         font-size: 20px;
     }
 
-    .passeios--presentation {
+    .atracoes--presentation {
         flex-direction: column;
         flex-flow: column-reverse;
     }
 
-    .passeios--slide--show {
+    .atracoes--slide--show {
         width: 100%;
     }
 
-    .passeios--presentation--text {
+    .atracoes--presentation--text {
         width: 100%;
     }
 

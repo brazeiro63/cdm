@@ -5,13 +5,16 @@
 }
 
 .item {
-    height: auto;
+    height: 50%;
 }
 
 .comodidades--slide--show {
     width: 50%;
 }
 
+.comodidades--slide--show img {
+    width: 100%;
+}
 .comodidades--presentation {
     display: flex;
     flex-direction: row;
@@ -23,7 +26,7 @@
 
 .comodidades--presentation--text {
     width: 50%;
-    padding: 20px;
+    padding: 5px;
 }
 
 .comodidades--presentation--text--title {
@@ -37,7 +40,7 @@
     font-family: 'BAHNSCHRIFT text', sans-serif;
     font-size: 22px;
     text-align: justify;
-    padding: 8%;
+    padding: 4%;
     font-weight: 400;
 }
 

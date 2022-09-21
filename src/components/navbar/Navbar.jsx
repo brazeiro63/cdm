@@ -1,6 +1,7 @@
 import React from 'react'
 import "./navbar.css";
 import logo from "../../images/logo.png";
+
 // import Menubar from '../navbar/menubar/Menubar';
 
 const Navbar = () => {
@@ -9,14 +10,24 @@ const Navbar = () => {
       <div className='navbar--row'>
         <nav className='navbar--column--left'>
           <div className='navbar--logo'>
-            <img src={logo} alt='logo' />
+            <img className='navbar--logo--img' src={logo} alt='logo' />
           </div>
-          {/* <div className='navbar--nome'>Casas de Margarida</div> */}
         </nav>
         <nav className='navbar--column--right'>
           <div className='navbar--user'></div>
+          <div className='navbar--nome--maior'>
+            <p>
+              Programe suas férias
+            </p><p>
+              <a href="http://www.airbnb.com.br/p/casasdemargarida">Faça já sua reserva!</a> 
+            </p>
+          </div><div className='navbar--nome--menor'>
+            <p>
+              Morro de São Paulo - Porto de Galinhas - Maceio
+            </p>
+          </div>
           <div className='navbar--menubar'>
-            {/* <Menubar /> */}
+            {/*<Menubar />*/}
           </div>
         </nav>
       </div>
@@ -25,7 +36,7 @@ const Navbar = () => {
       <div className="navbar">
         <a href="#imoveis">Imóveis</a>
         <a href="#comodidades">Comodidades</a>
-        <a href="#passeios">Passeios</a>
+        <a href="#atracoes">Atrações</a>
         <a href="#anfitrioes">Anfitriões</a>
         <a href="#contato">Contato</a>
       </div>

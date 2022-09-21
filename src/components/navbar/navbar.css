@@ -1,7 +1,37 @@
-img {
+.navbar--logo {
+    font-family: 'BAHNSCHRIFT' sans-serif;
+}
 
+
+.navbar--nome--maior, .navbar--nome--maior a {
+    font-family: 'BAHNSCHRIFT' sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: condensed;
+    color: #3993d2;
+    align-items: center;
+    align-content: flex-end;
+    text-align: right;
+}
+
+
+.navbar--nome--menor {
+    font-family: 'BAHNSCHRIFT' sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-stretch: condensed;
+    color: cornflowerblue;
+}
+
+.navbar--logo--img img {
     max-width: 100%;
-    /* background-color: blue; */
+    background-color: rgba(219, 223, 223, 0);
+}
+
+img {
+    max-width: 100%;
+    background-color: rgba(219, 223, 223, 0);
 }
 
 
@@ -37,7 +67,7 @@ img {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(68, 144, 115);
 }
 
 .dropdown-content {
@@ -66,10 +96,6 @@ img {
     display: block;
 }
 
-
-
-
-
 .navbar--text {
     font-family: 'Bahnschrift', sans-serif;
     font-size: 30px;
@@ -78,7 +104,7 @@ img {
 
 .navbar--column--left {
     font-family: 'BAHNSCHRIFT' sans-serif;
-    flex: 0.4 1;
+    flex: 0.2 0.5 150px;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -89,7 +115,7 @@ img {
 }
 
 .navbar--column--right {
-    flex: 1 1 200px;
+    flex: 0.7 0.4 200px;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-end;
@@ -121,12 +147,32 @@ img {
     flex-wrap: wrap;
 }
 
-.navbar--logo {
-    font-family: 'BAHNSCHRIFT' sans-serif;
+@media screen and (max-width: 730px) {
+    .navbar--nome--maior, .navbar--nome--maior a{
+        font-size: 36px;
+    }
+
+    .navbar--nome--menor {
+        font-size: 28px;
+    }
 }
 
-.navbar--nome {
-    font-family: 'BAHNSCHRIFT' sans-serif;
-    font-size: 52px;
-    font-weight: 400;
+@media screen and (max-width: 600px) {
+    .navbar--nome--maior, .navbar--nome--maior a{
+        font-size: 24px;
+    }
+
+    .navbar--nome--menor {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350) {
+    .navbar--nome--maior, .navbar--nome--maior a{
+        font-size: 18px;
+    }
+
+    .navbar--nome--menor {
+        font-size: 14px;
+    }
 }

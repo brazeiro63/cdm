@@ -9,11 +9,11 @@ const MenubarContainer = () => {
     <div className='menubar--container'>
       <MenuOption dest='#imoveis' text='Imóveis' /> {/* option="imoveis"*/}
       <MenuOption dest='#comodidades' text='Comodidades' /> {/* option="comodidades"*/}
-      <MenuOption dest='#passeios' text='Passeios' /> {/* option="passeios"*/}
+      <MenuOption dest='#atracoes' text='Atrações' /> {/* option="atracoes"*/}
       <MenuOption dest='#anfitrioes' text='Anfitriões' /> {/* option="quemsomos"*/}
       <MenuOption dest='#contato' text="Contato" /> {/* option="contato"*/}
     </div>
   )
 }
 
-export default MenubarContainer
+export default MenubarContainer 

@@ -2,9 +2,7 @@ div {
     font-size: 20px;
     font-family: 'BAHNSCHRIFT' sans-serif;
     font-weight: 400;
-
 }
-
 
 a {
     text-decoration: none;
@@ -24,20 +22,20 @@ a {
 
 .menuOption-button {
     font-family: 'BAHNSCHRIFT text', sans-serif;
-    font-size: 22px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 600;
     background-color: lightskyblue;
-    color: white;
-    width: 150px;
-    height: 50px;
+    color: rgba(37, 121, 77, 0.865);
+    width: 140px;
+    height: 40px;
     align-items: center;
-    border-radius: 7px;
+    border-radius: 8px;
     border-color: cornflowerblue;
-    border-width: 5px;
-    margin: 5px;
+    border-width: 1px 3px 3px 1px;
+    margin: 3px;
 }
 
 .menuOption-button:hover {
-    background-color: darkorange;
+    background-color: rgb(191, 146, 76);
     transform: scale(1.1);
 }

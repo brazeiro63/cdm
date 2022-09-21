@@ -1,8 +1,8 @@
 import React from 'react'
-import image1 from '../../images/Carousel/CarouselMorro02.jpeg';
-import image2 from '../../images/Carousel/CarouselMuro01.jpeg';
-import image3 from '../../images/Carousel/CarouselPortoBelga02.jpeg';
-import image4 from '../../images/Carousel/CarouselPortoAtlantis04.jpeg';
+import image1 from '../../images/carousel/carrossel02.jpg';
+import image2 from '../../images/carousel/carrossel01.jpg';
+import image3 from '../../images/carousel/carrossel03.jpg';
+import image4 from '../../images/carousel/carrossel04.jpg';
 
 import './carousel.css'
 
@@ -41,7 +41,7 @@ export default function Carousel() {
                         <img className='img--carousel' src={image3} alt="Porto de Galinhas" />
                         <div className="carousel-caption">
                             <h3>Porto de Galinhas - Ipojuca - PE</h3>
-                            <p>Luxo com pé na areia em Porto de Galinhas!</p>
+                            <p>Em breve, Muito conforto com pé na areia em Porto de Galinhas!</p>
                         </div>
                     </div>
 
@@ -68,10 +68,10 @@ export default function Carousel() {
                     <p>Casas de Margarida</p>
                 </div>
                 <div className='presentation--text--body'>
-                    <p>Casas de Margarida tem o melhor lugar para ficar enquanto você
-                        aproveita suas férias. São imóveis bem localizados, nas melhores
+                    <p>Casas de Margarida tem o melhor lugar para ficar, seja para descansar 
+                        ou trabalhar. São imóveis bem localizados, nas melhores
                         praias do Brasil, com todo o conforto e praticidade para que suas
-                        férias sejam um período de descanso inesquecível.</p>
+                        viagens sempre sejam momentos de descanso inesquecíveis.</p>
                 </div>
             </div>
         </div>
