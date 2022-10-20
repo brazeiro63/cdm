@@ -3,7 +3,8 @@
 }
 
 
-.navbar--nome--maior, .navbar--nome--maior a {
+.navbar--nome--maior,
+.navbar--nome--maior a {
     font-family: 'BAHNSCHRIFT' sans-serif;
     font-size: 42px;
     font-weight: 600;
@@ -38,6 +39,8 @@ img {
 .navbar {
     overflow: hidden;
     background-color: rgb(176 155 127);
+    min-height: 0;
+
 }
 
 .navbar a {
@@ -45,7 +48,7 @@ img {
     font-size: 24px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
 
@@ -148,18 +151,15 @@ img {
 }
 
 @media screen and (max-width: 730px) {
-    .navbar--nome--maior, .navbar--nome--maior a{
+    .navbar a {
+        font-size: 18px;
+        padding: 10px 12px;
+    }
+
+    .navbar--nome--maior,
+    .navbar--nome--maior a {
         font-size: 36px;
-    }
-
-    .navbar--nome--menor {
-        font-size: 28px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .navbar--nome--maior, .navbar--nome--maior a{
-        font-size: 24px;
+        text-align: center;
     }
 
     .navbar--nome--menor {
@@ -167,9 +167,33 @@ img {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .navbar a {
+        font-size: 14px;
+        padding: 6px 6px;
+    }
+
+    .navbar--nome--maior,
+    .navbar--nome--maior a {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .navbar--nome--menor {
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 350) {
-    .navbar--nome--maior, .navbar--nome--maior a{
+    .navbar a {
+        font-size: 12px;
+        padding: 4px 7px;
+    }
+
+    .navbar--nome--maior,
+    .navbar--nome--maior a {
         font-size: 18px;
+        text-align: center;
     }
 
     .navbar--nome--menor {

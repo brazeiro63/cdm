@@ -20,14 +20,14 @@ export default function Atracoes() {
                 </div>
                 <div className='atracoes--presentation--text--body'>
                     <p>
-                        Os imóveis de Casas de Margarida estão localizados nas melhores praias 
-                        do litoral Nordestino. Destinos avaliados nas melhores posições do ranking 
-                        de praias e destinos turísticos de várias publicações.
-                    </p><p>
-                        Nas localidades de Morro de São Paulo, na Bahia, Muro Alto e Porto de Galinhas,
-                        em Ipojuca, Pernambuco e em breve na praia de Pajuçara, em Maceio, estão à
-                        disposição de nossos hóspedes as mais diversas atrações para enriquecer
-                        a experiência da viagem.
+                        As localizações dos nossos imóveis são as mais atrativas do 
+                        Nordeste e são avaliadas nas melhores posições no <i>ranking</i> de 
+                        praias e destinos turísticos de várias publicações.
+                    </p>
+                    <p>
+                        Não falta o que fazer: passeios, restaurantes, piscinas naturais, 
+                        tirolesas, feiras de artesanato, locais históricos e muita diversão o 
+                        tempo todo. Além, é claro, de toda a beleza do litoral nordestino.
                     </p>
                 </div>
             </div>

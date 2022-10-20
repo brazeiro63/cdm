@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar';
-import Main from './components/main/Main';
+import Rodape from './components/main/Rodape';
 import Carousel from './components/main/Carousel';
 import Imoveis from './components/main/Imoveis';
 import Comodidades from './components/main/Comodidades';
@@ -23,7 +23,7 @@ const App = () => {
                     <Anfitrioes />
                 </div>
                 <div className='app--footer'>
-                    <Main ident='contato' />
+                    <Rodape ident='contato' />
                 </div>
             </div>
         </div>

@@ -17,9 +17,9 @@ const Navbar = () => {
           <div className='navbar--user'></div>
           <div className='navbar--nome--maior'>
             <p>
-              Programe suas férias
+              Comece a programar suas férias agora
             </p><p>
-              <a href="http://www.airbnb.com.br/p/casasdemargarida">Faça já sua reserva!</a> 
+              <a href="http://www.airbnb.com.br/p/casasdemargarida">Clique e reserve!</a> 
             </p>
           </div><div className='navbar--nome--menor'>
             <p>

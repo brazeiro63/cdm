@@ -44,7 +44,7 @@ export default function Comodidades() {
                             <p>Equipados com todos os eletrodomésticos para facilitar o preparo de alimentos</p>
                         </div>
                     </div>
-                    
+
                     <div className="item">
                         <img className='img--comodidades' src={image3} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
@@ -53,7 +53,7 @@ export default function Comodidades() {
                                 além de petiscos e lanches durante todo o dia.</p>
                         </div>
                     </div>
-                    
+
                     <div className="item">
                         <img className='img--comodidades' src={image4} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
@@ -61,7 +61,7 @@ export default function Comodidades() {
                             <p>Cozinha completa para facilitar o preparo de alimentos</p>
                         </div>
                     </div>
-                    
+
                     <div className="item">
                         <img className='img--comodidades' src={image5} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
@@ -69,7 +69,7 @@ export default function Comodidades() {
                             <p>Parquinho para a diversão da criançada.</p>
                         </div>
                     </div>
-                    
+
                     <div className="item">
                         <img className='img--comodidades' src={image6} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
@@ -107,20 +107,25 @@ export default function Comodidades() {
                     <p>Comodidades</p>
                 </div>
                 <div className='comodidades--presentation--text--body'>
-                    <p>Nossos imóvel são localizados nas melhores áreas,
-                        perto das praias mais famosas do Brasil. 
-                    </p><p>
-                        Todos estão
-                        completamente equipados, climatizados e conectados com
-                        internet para que você possa se divertir e eventualmente
-                        trabalhar, se for necessário.
-                    </p><p>
-                        Temos eletrodomésticos e utilidades necessários para o
-                        preparo das refeições e conforto dos hóspedes.
+                    <p>
+                        Os imóveis são equipados com eletrodomésticos e utilidades necessários
+                        para o preparo das refeições e conforto dos hóspedes.
                     </p>
-                </div>
+                    <p>
+                        Todos os quartos são climatizados e conectados com internet para que
+                        você possa se divertir e eventualmente trabalhar, se for necessário.
+                    </p>
+                    <p>
+                        Camas confortáveis e lençóis de boa qualidade.
+                    </p>
+                    <p>
+                        Smart TV de telas grandes e WI-FI para você assistir aos seus
+                        programas favoritos ao retornar dos passeios.
+                    </p>
+
             </div>
         </div>
+        </div >
 
     )
 }

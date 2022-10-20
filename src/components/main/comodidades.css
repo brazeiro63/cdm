@@ -46,24 +46,85 @@
 
 @media screen and (max-width: 900px) {
     .comodidades--presentation--text--title {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .comodidades--presentation--text--body {
-        font-size: 20px;
+        font-size: 22px;
     }
-
+ 
+    .carousel-caption h3 {
+        font-size: 26px;
+    }
+    
+    .carousel-caption p {
+        font-size: 22px;
+    }
     .comodidades--presentation {
         flex-direction: column;
         flex-flow: column;
     }
-
+    
     .comodidades--slide--show {
         width: 100%;
     }
-
+    
     .comodidades--presentation--text {
         width: 100%;
     }
+    
+}
 
+@media screen and (max-width: 730px) {
+    .comodidades--presentation--text--title {
+        font-size: 24px;
+    }
+    
+    .comodidades--presentation--text--body {
+        font-size: 20px;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 24px;
+    }
+    
+    .carousel-caption p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .comodidades--presentation--text--title {
+        font-size: 22px;
+    }
+    
+    .comodidades--presentation--text--body {
+        font-size: 18px;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 22px;
+    }
+    
+    .carousel-caption p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 350) {
+    .comodidades--presentation--text--title {
+        font-size: 20px;
+    }
+    
+    .comodidades--presentation--text--body {
+        font-size: 16px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+    }
 }

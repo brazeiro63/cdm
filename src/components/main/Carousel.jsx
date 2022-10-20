@@ -24,7 +24,7 @@ export default function Carousel() {
                     <div className="item active">
                         <img className='img--carousel' src={image1} alt="Morro de São Paulo" />
                         <div className="carousel-caption">
-                            <h3>Morro de São Paulo</h3>
+                            <h3>Morro de São Paulo - Cairú(BA)</h3>
                             <p>Casa aconchegante na 4ª Praia</p>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ export default function Carousel() {
                     <div className="item">
                         <img className='img--carousel' src={image2} alt="Muro Alto" />
                         <div className="carousel-caption">
-                            <h3>Muro Alto - Ipojuca - PE</h3>
+                            <h3>Muro Alto - Ipojuca(PE)</h3>
                             <p>Apartamento super equipado no Muro Alto Condomínio Club!</p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function Carousel() {
                     <div className="item">
                         <img className='img--carousel' src={image3} alt="Porto de Galinhas" />
                         <div className="carousel-caption">
-                            <h3>Porto de Galinhas - Ipojuca - PE</h3>
+                            <h3>Porto de Galinhas - Ipojuca(PE)</h3>
                             <p>Em breve, Muito conforto com pé na areia em Porto de Galinhas!</p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export default function Carousel() {
                     <div className="item">
                         <img className='img--carousel' src={image4} alt="Porto de Galinhas" />
                         <div className="carousel-caption">
-                            <h3>Porto de Galinhas - Ipojuca - PE</h3>
+                            <h3>Porto de Galinhas - Ipojuca(PE)</h3>
                             <p>Em breve, Kit Studio super fofa a 100m da praia!</p>
                         </div>
                     </div>
@@ -68,10 +68,13 @@ export default function Carousel() {
                     <p>Casas de Margarida</p>
                 </div>
                 <div className='presentation--text--body'>
-                    <p>Casas de Margarida tem o melhor lugar para ficar, seja para descansar 
-                        ou trabalhar. São imóveis bem localizados, nas melhores
-                        praias do Brasil, com todo o conforto e praticidade para que suas
-                        viagens sempre sejam momentos de descanso inesquecíveis.</p>
+                    <p>
+                        Casas de Margarida tem o melhor lugar para ficar,
+                        seja para descansar ou trabalhar. São imóveis bem
+                        localizados, nas melhores praias do Brasil, com todo
+                        o conforto e praticidade para que suas viagens sempre
+                        sejam momentos inesquecíveis.
+                    </p>
                 </div>
             </div>
         </div>

@@ -45,26 +45,88 @@
     font-weight: 400;
 }
 
+
 @media screen and (max-width: 900px) {
     .atracoes--presentation--text--title {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .atracoes--presentation--text--body {
-        font-size: 20px;
+        font-size: 22px;
     }
-
+ 
+    .carousel-caption h3 {
+        font-size: 26px;
+    }
+    
+    .carousel-caption p {
+        font-size: 22px;
+    }
     .atracoes--presentation {
         flex-direction: column;
         flex-flow: column-reverse;
     }
-
+    
     .atracoes--slide--show {
         width: 100%;
     }
-
+    
     .atracoes--presentation--text {
         width: 100%;
     }
+    
+}
 
+@media screen and (max-width: 730px) {
+    .atracoes--presentation--text--title {
+        font-size: 24px;
+    }
+    
+    .atracoes--presentation--text--body {
+        font-size: 20px;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 24px;
+    }
+    
+    .carousel-caption p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .atracoes--presentation--text--title {
+        font-size: 22px;
+    }
+    
+    .atracoes--presentation--text--body {
+        font-size: 18px;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 22px;
+    }
+    
+    .carousel-caption p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 350) {
+    .atracoes--presentation--text--title {
+        font-size: 20px;
+    }
+    
+    .atracoes--presentation--text--body {
+        font-size: 16px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+    }
 }

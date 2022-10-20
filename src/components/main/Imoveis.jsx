@@ -26,19 +26,25 @@ export default function imoveis() {
                     <p>Os imóveis</p>
                 </div>
                 <div className='imoveis--presentation--text--body'>
-                    <p>Casas de Margarida busca oferecer imóveis nas melhores praias do
-                        nordeste do Brasil.</p>
-                    <p>Em Morro de São Paulo, na Bahia, oferecemos ums bela casa de 110 m<sup>2</sup>
-                        muito aconchegante, com 3 dormitórios, sendo dois no térreo e um no mezanino.
-                        Sala de estar, sala de jantar e cozinha com conceito aberto. Todos os dormitórios
-                        contam com condicionador de ar e armários.
-                    </p><p>
-                        Em Ipojuca, Pernambuco, você pode desfrutar da comodidade de um condomínio
-                        com toda estrutura de lazer de um clube, em Muro Alto, onde oferecemos um
-                        aconchegante apartamento de um dormitório, com sala e cozinha bem equipados.
-                    </p><p>Em breve, estará disponivel nossa nova acomodação. Pé na areia de Porto
-                        de Galinhas. Um luxuoso apartamento de 105 m<sup>2</sup>, com trẽs dormitórios
-                        onde vamos oferecer experiências inesquecíveis.</p>
+                    <p>
+                        Casas de Margarida oferece imóveis nas melhores praias do nordeste do Brasil.
+                    </p>
+                    <p>
+                        <strong>Morro de São Paulo</strong> - Cairú(BA) - casa de 110 m<sup>2</sup>&nbsp; na Quarta Praia,
+                        muito aconchegante e cercada de verde. Acomoda até 8 pessoas.
+                    </p>
+                    <p>
+                        <strong>Muro Alto</strong> - Ipojuca(PE) - flat confortável para até 4 pessoas.  Dentro
+                        de um condomínio com toda estrutura de lazer
+                    </p>
+                    <p>
+                        <strong>Pajuçara</strong> - Maceió(AL) - apto duplex para até 6 pessoas.  Excelente
+                        localização, em frente as piscinas de Pajuçara, e próximo a tudo.
+                    </p>
+                    <p>
+                        <strong>Porto de Galinhas</strong> - Ipojuca(PE) (Em breve) - apartamento de 105 m<sup>2</sup>&nbsp;- para até 8 
+                        pessoas. Pé na areia, na melhor localização de Porto de Galinhas.
+                    </p>
                 </div>
             </div>
 

@@ -1,0 +1,84 @@
+.rodape {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    
+}
+
+.rodape--corpo {
+    font-family: 'BAHNSCHRIFT' sans-serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    background-color: #c8d5d0;
+    height: 500px;
+    width: 100%;
+}
+
+.rodape--contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.rodape--text {
+    font-size: medium;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    font-family: 'BAHNSCHRIFT' sans-serif;
+
+}
+
+.rodape--text--base {
+    font-family: 'BAHNSCHRIFT', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.rodape--grid{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.rodape--grid--col {
+    align-content: center;
+    text-align: center;
+}
+.rodape--grid--row {
+    display: inline;
+    align-content: center;
+    text-align: center;
+    max-width: 15%;
+    height: 200px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }

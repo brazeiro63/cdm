@@ -1,0 +1,5 @@
+cd ~/projetos/cmd 
+npm run build 
+cd build 
+cp -fR *.* /mnt/d/temp 
+cp -fR static /mnt/d/temp
